@@ -1,0 +1,39 @@
+{
+  "name": "vuf",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch-be": "webpack --config ./webpack.backend.config.js --watch",
+    "watch-fe": "webpack --config ./webpack.frontend.config.js --watch",
+    "start": "VUE_ENV=server nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alekzonder/vuf.git"
+  },
+  "author": "alekzonder <alekzonder@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alekzonder/vuf/issues"
+  },
+  "homepage": "https://github.com/alekzonder/vuf#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "vue": "^2.0.0-rc.5",
+    "vue-html-loader": "^1.2.3",
+    "vue-server-renderer": "^2.0.0-rc.5"
+  },
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "css-loader": "^0.25.0",
+    "html-loader": "^0.4.3",
+    "json-loader": "^0.5.4",
+    "style-loader": "^0.13.1",
+    "vue-loader": "^8.5.2",
+    "vue-template-loader": "^0.1.2",
+    "webpack": "^1.13.2"
+  }
+}
